@@ -1,0 +1,9 @@
+# Accept up to 5% over on a line (common for bulk fasteners), no tolerance for shorts.
+over_tolerance_pct = 5
+short_tolerance_pct = 0
+# Damaged units do not count as received; they go to a claim instead.
+damaged_counts_as_received = false
+# Every carton must carry a valid SSCC.
+require_sscc = true
+# Problems that stop the receipt until a supervisor reviews it. Everything else is a variance.
+hold_on = ["over", "not-on-po", "damaged", "missing-carton", "invalid-sscc"]
