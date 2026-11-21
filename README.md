@@ -1,5 +1,8 @@
 # receiving-check
 
+[![CI](https://github.com/akincenk/receiving-check/actions/workflows/ci.yml/badge.svg)](https://github.com/akincenk/receiving-check/actions/workflows/ci.yml)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/akincenk/receiving-check/badge)](https://scorecard.dev/viewer/?uri=github.com/akincenk/receiving-check)
+
 Check a delivery at the receiving dock. It compares three things: what you ordered (the purchase order), what the supplier says it shipped (the advance ship notice, ASN), and what your team actually scanned off the truck. The result is a line-by-line report and one decision: accept, accept with variances, or hold for review.
 
 ## Who it is for
